@@ -1,0 +1,112 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "Creating visible and interactive parts of websites or apps that users interact with directly",
+      "experience":"2+"
+    },
+    {
+      "id": "2",
+      "src": "./img/react.png",
+      "title": "React.js",
+      "description": "JS library to build dynamic user interfaces for web apps to efficiently manage UI state",
+      "experience":"2+"
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "UI & UX Design",
+      "description": "Visually appealing interfaces for digital products,focusing on enhancing user satisfaction",
+      "experience":"2+"
+    },
+    {
+      "id": "4",
+      "src": "./img/redux.png",
+      "title": "Redux Toolkit",
+      "description": "A popular state management library for JavaScript applications.",
+      "experience":"2+"
+    },
+    {
+      "id": "5",
+      "src": "./img/Tailwind.png",
+      "title": "Tailwind",
+      "description": "utility-first CSS framework, allows developers to rapidly build custom UIs.",
+      "experience":"2+"
+    }
+  ],
+  "main_portfolio": [
+    {
+      "id": "1",
+      "src": "./img/arktastic.png",
+      "title": "ARKTASTIC",
+      "description": "This e-commerce platform is a product-centric company based in Australia. Notably, the platform is designed to accommodate multiple merchants, allowing them to sell their products. It boasts the capability to integrate external APIs, enhancing its versatility and extending its reach within the e-commerce ecosystem.",
+      "technology":["Next.js","typeScript", "redux", "tailwind", "jwt-decode", "axios", "emotion/css", "formik","stripe.js" ],
+      "website":"Visit website", 
+      "link": "https://www.arktastic.com/"
+    },
+
+    {
+      "id": "2",
+      "src": "./img/dashboard.png",
+      "title": "ARKTASTIC admin/merchant dashboard",
+      "description": "A React-based admin/merchant dashboard connected with a MongoDB backend and utilizing Redux for state management would be a powerful tool for managing various aspects of an e-commerce application.Enables admins to manage products within the system.Functionality includes adding new products, editing existing ones, and removing outdated items. Supports features like product categories, pricing, inventory management, and image uploads.",
+      "technology":["React.js","javaScript", "redux", "tailwind", "jwt-decode", "axios", "emotion/css", "formik","mantine library","react-icons" ],
+      "website":"Access only for authorized persons", 
+      "link": "https://www.arktastic.com/"
+    }
+  
+  ],
+  "big_projects": [
+    {
+      "id": "1",
+      "src": "./img/wild.png",
+      "title": "The Wild Oasis",
+      "description": "The React project dashboard enables admin login, user creation, booking management (create, update, delete), room management (add, update, delete), and expense calculation. It provides secure authentication, real-time updates on bookings and room availability, and intuitive analytics for informed decision-making. The system ensures data privacy, responsive design for cross-device accessibility, and streamlined hotel operations for efficient guest management. email: user@example.com password:user1234",
+      "technology":["React.js","javaScript", "react Query", "Styled Components", "jwt-decode", "recharts", "react-hot-toast" , "react-hook-form", "react-icons"],
+      "website":"Visit website", 
+      "link": "https://the-wild-oasis-resorts.netlify.app/dashboard"
+    },
+    
+    
+    {
+      "id": "2",
+      "src": "./img/wild.png",
+      "title": "ARKTASTIC",
+      "description": "This e-commerce platform is a product-centric company based in Australia. Notably, the platform is designed to accommodate multiple merchants, allowing them to sell their products. It boasts the capability to integrate external APIs, enhancing its versatility and extending its reach within the e-commerce ecosystem.",
+      "technology":["Next.js","typeScript", "redux", "tailwind", "jwt-decode", "axios", "emotion/css", "formik","stripe.js" ],
+      "website":"Visit website", 
+      "link": "https://www.arktastic.com/"
+    }
+  ],
+
+
+
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}
