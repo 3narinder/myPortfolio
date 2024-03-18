@@ -37,6 +37,7 @@ function Navbar() {
       <div className="text-gray-700/80 text-xl font-bold tracking-wider">
         PORTFOLIO
       </div>
+
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
@@ -45,6 +46,7 @@ function Navbar() {
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
       </a>
+
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
           <li>

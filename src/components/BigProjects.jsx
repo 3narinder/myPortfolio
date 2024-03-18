@@ -9,7 +9,7 @@ const BigProjects = () => {
       </h2>
       <div className="portfolio--section--container">
         {data?.big_projects?.map((item, index) => (
-          <div key={index} className="portfolio--section--card">
+          <div key={item?.id} className="portfolio--section--card">
             <div className="portfolio--section--img p-4">
               <img
                 className="lg:h-80 md:80 h-auto w-auto overflow-hidden rounded-md"
